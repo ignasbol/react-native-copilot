@@ -47,10 +47,10 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: 2,
+    // borderWidth: 2,
     borderRadius: STEP_NUMBER_RADIUS,
-    borderColor: '#FFFFFF',
-    backgroundColor: '#27ae60',
+    // borderColor: '#FFFFFF',
+    backgroundColor: '#EB8F16',
   },
   stepNumberText: {
     fontSize: 10,
