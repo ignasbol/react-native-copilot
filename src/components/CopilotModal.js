@@ -221,8 +221,10 @@ class CopilotModal extends Component<Props, State> {
   }
 
   handleStop = () => {
+    const wasSkipped = !this.props.isLastStep;
+
     this.reset();
-    this.props.stop();
+    this.props.stop(wasSkipped);
   }
 
   renderMask() {
